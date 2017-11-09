@@ -18,3 +18,11 @@
 body {
     background-color: rgb(255, 251, 240);
 }
+.brandlink {
+    text-decoration: none;
+    color: gray;
+}
+.brandlink:hover {
+    color: gray;
+    text-decoration: none;
+}
