@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- The below 3 meta tags *must* come first in the head -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Site information -->
+    <title>Blog | Musicophones</title>
+    <meta name="description" content="A blog about music">
+    <meta name="keywords" content="blog">
+    <meta name="author" content="Andreas Lymalm, Rickard Lundby, Max">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-darkly.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Font icons -->
+    <script src="https://use.fontawesome.com/89454cd725.js"></script>
+</head>
+
+<body>
+
+    <!-- This is the header and navbar - re-use on all sites -->
+    <header class="site-header">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Musicophone.com</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="defaultNavbar1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tutoring
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="all_services.html">Overview</a>
+                                </li>
+                                <li role="separator" class="divider"></li>
+                                <div class="dropdown-header">Specific tutoring</div>
+                                <li>
+                                    <a href="service_song.html">Song</a>
+                                </li>
+                                <li>
+                                    <a href="service_piano.html">Piano</a>
+                                </li>
+                                <li>
+                                    <a href="service_string.html">String</a>
+                                </li>
+                                <li>
+                                    <a href="service_brass.html">Brass</a>
+                                </li>
+                                <li>
+                                    <a href="service_percussion.html">Percussion</a>
+                                </li>
+                                <li>
+                                    <a href="service_guitar.html">Guitar</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active">
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+    <!-- End of header and navbar -->
+
+    <!-- 
+        BREADCRUMB
+    -->
+    <div class="container-fluid">
+        <ol class="breadcrumb">
+            <li>
+                <a href="index.html">
+                    <span class="glyphicon glyphicon-home"></span>
+                </a>
+            </li>
+            <li class="active">
+                Blog
+            </li>
+        </ol>
+    </div>
+
+    <!--
+        MAIN CONTENT
+    -->
+    <div class="container">
+        <div class="row">
+
+            <!-- Blog post 1 -->
+            <div class="col-xs-12">
+                <div class="panel panel-primary blogpost">
+                    <!-- Blog heading -->
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <h3>We Have Now Started Tutoring in Trombone!
+                                <small>Posted 3 days ago</small>
+                            </h3>
+                        </div>
+                    </div>
+                    <!-- Blog content -->
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore similique tenetur minima quasi
+                            totam exercitationem laborum numquam voluptate vero temporibus, molestiae odio facilis. Ipsum,
+                            reiciendis aliquam. Deleniti architecto natus officia.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique cum autem totam. Quam aspernatur
+                            mollitia minima similique eos repellat amet sapiente fugit eveniet deleniti voluptatum exercitationem
+                            id, culpa nemo cupiditate in sed vero enim iste labore. Ad aut molestiae fuga!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, provident tempore totam obcaecati
+                            dolore quo. Veniam blanditiis debitis suscipit tempora.</p>
+                        <!-- Write a comment -->
+                        <div class="well write-comment panel panel-default">
+                            <!-- Heading of Write a Comment -->
+                            <div class="panel-heading" data-toggle="collapse" data-target="#make-comment-1">
+                                <div class="panel-title">
+                                    <h4>Make a Comment</h4>
+                                </div>
+                            </div>
+                            <!-- Write a Comment form -->
+                            <div class="panel-collapse collapse" id="make-comment-1">
+                                <div class="panel-body">
+                                    <form>
+                                        <div class="row">
+                                            <div class="form-group col-xs-12 col-sm-6 col-lg-3">
+                                                <label for="name">Name</label>
+                                                <input type="name" class="form-control" id="name" placeholder="Enter Name">
+                                            </div>
+                                            <div class="form-group col-xs-12 col-sm-6 col-lg-4">
+                                                <label for="email">Email Address</label>
+                                                <input type="email" class="form-control" id="email" placeholder="Enter Email address">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group col-xs-12 col-lg-7">
+                                                <label for="description">Comment</label>
+                                                <textarea class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="button" class="btn btn-success submit" data-toggle="modal" data-target="#modal-confirm">
+                                                Post Comment
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Read all comments -->
+                        <div class="well read-comments panel panel-default">
+                            <!-- Heading of Read Comments -->
+                            <div class="panel-heading" data-toggle="collapse" data-target="#read-comments-1">
+                                <div class="panel-title">
+                                    <h4>Read Comments</h4>
+                                </div>
+                            </div>
+
+                            <!-- All comments -->
+                            <div class="panel-collapse collapse" id="read-comments-1">
+                                <div class="panel-body">
+                                    <!-- Comment 1-1 -->
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="">
+                                                <img src="https://kahoot.com/files/2017/05/bryan_trans-64x64.png" alt="" class="media-object">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Jhon Carter
+                                                <small>Posted on November 19, 2017 15:36</small>
+                                            </h4>
+                                            <p>Excellent feature! I love it. One day I'm definitely going to put this Bootstrap
+                                                component into use and I'll let you know once I do.</p>
+                                            <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#post1-1">
+                                                Read answers
+                                                <span class="badge">3</span>
+                                            </button>
+
+                                            <div id="post1-1" class="post collapse">
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <a href="">
+                                                            <img src="https://kahoot.com/files/2017/06/AlexAvatar-white-64x64.png" alt="" class="media-object">
+                                                        </a>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Max Martin
+                                                            <small>Posted on November 19, 2017 17:07</small>
+                                                        </h4>
+                                                        <p>Thanks! I think it's really useful! :-)</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <a href="">
+                                                            <img src="https://kahoot.com/files/2017/05/bryan_trans-64x64.png" alt="" class="media-object">
+                                                        </a>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Jhon Carter
+                                                            <small>Posted on November 19, 2017 17:13</small>
+                                                        </h4>
+                                                        <p>I'm gonna build my own social network, it'll be a place for everybody
+                                                            interested in different place-img pages.</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <a href="">
+                                                            <img src="https://kahoot.com/files/2017/06/AlexAvatar-white-64x64.png" alt="" class="media-object">
+                                                        </a>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Max Martin
+                                                            <small>Posted on November 20, 2017 08:49</small>
+                                                        </h4>
+                                                        <p>Fantastic! I bet everyone will sign up for that.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Comment 1-2 -->
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="">
+                                                <img src="https://kahoot.com/files/2017/05/carla_trans-64x64.png" alt="" class="media-object">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Monica Zetterlund
+                                                <small>Posted on November 19, 2017 15:36</small>
+                                            </h4>
+                                            <p>Excellent feature! I love it. One day I'm definitely going to put this Bootstrap
+                                                component into use and I'll let you know once I do.</p>
+                                            <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#post1-2">
+                                                Read answers
+                                                <span class="badge">3</span>
+                                            </button>
+
+                                            <div id="post1-2" class="post collapse">
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <a href="">
+                                                            <img src="https://kahoot.com/files/2017/05/daria_trans-64x64.png" alt="" class="media-object">
+                                                        </a>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Marie Curie
+                                                            <small>Posted on November 19, 2017 17:07</small>
+                                                        </h4>
+                                                        <p>Thanks! I think it's really useful! :-)</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <a href="">
+                                                            <img src="https://kahoot.com/files/2017/05/carla_trans-64x64.png" alt="" class="media-object">
+                                                        </a>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Monica Zetterlund
+                                                            <small>Posted on November 19, 2017 17:13</small>
+                                                        </h4>
+                                                        <p>I'm gonna build my own social network, it'll be a place for everybody
+                                                            interested in different place-img pages.</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <a href="">
+                                                            <img src="https://kahoot.com/files/2017/05/daria_trans-64x64.png" alt="" class="media-object">
+                                                        </a>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Marie Curie
+                                                            <small>Posted on November 20, 2017 08:49</small>
+                                                        </h4>
+                                                        <p>Fantastic! I bet everyone will sign up for that.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- Share blog post -->
+                    <div class="panel-footer">
+                        <div class="social-links">
+                            Share your experience on
+                            <a href="#">
+                                <i class="fa fa-facebook-official"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog post 2 -->
+            <div class="col-xs-12">
+                <div class="panel panel-primary blogpost">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <h3>Watch Our Orchestra Playing On Music's Day
+                                <small>Posted on 2017-11-03</small>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore similique tenetur minima quasi
+                            totam exercitationem laborum numquam voluptate vero temporibus, molestiae odio facilis. Ipsum,
+                            reiciendis aliquam. Deleniti architecto natus officia.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique cum autem totam. Quam aspernatur
+                            mollitia minima similique eos repellat amet sapiente fugit eveniet deleniti voluptatum exercitationem
+                            id, culpa nemo cupiditate in sed vero enim iste labore. Ad aut molestiae fuga!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, provident tempore totam obcaecati
+                            dolore quo. Veniam blanditiis debitis suscipit tempora.</p>
+                        <!-- Write a comment -->
+                        <div class="well write-comment panel panel-default">
+                            <!-- Heading of Write a Comment -->
+                            <div class="panel-heading" data-toggle="collapse" data-target="#make-comment-2">
+                                <div class="panel-title">
+                                    <h4>Make a Comment</h4>
+                                </div>
+                            </div>
+                            <!-- Write a Comment form -->
+                            <div class="panel-collapse collapse" id="make-comment-2">
+                                <div class="panel-body">
+                                    <form>
+                                        <div class="row">
+                                            <div class="form-group col-xs-12 col-sm-6 col-lg-3">
+                                                <label for="name">Name</label>
+                                                <input type="name" class="form-control" id="name" placeholder="Enter Name">
+                                            </div>
+                                            <div class="form-group col-xs-12 col-sm-6 col-lg-4">
+                                                <label for="email">Email Address</label>
+                                                <input type="email" class="form-control" id="email" placeholder="Enter Email address">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group col-xs-12 col-lg-7">
+                                                <label for="description">Comment</label>
+                                                <textarea class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="button" class="btn btn-success submit" data-toggle="modal" data-target="#modal-confirm">
+                                                Post Comment
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Read all comments -->
+                        <div class="well read-comments panel panel-default">
+                            <!-- Heading of Read Comments -->
+                            <div class="panel-heading" data-toggle="collapse" data-target="#read-comments-2">
+                                <div class="panel-title">
+                                    <h4>Read Comments</h4>
+                                </div>
+                            </div>
+
+                            <!-- All comments -->
+                            <div class="panel-collapse collapse" id="read-comments-2">
+                                <div class="panel-body">
+                                    <!-- Comment 2-1 -->
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="">
+                                                <img src="https://kahoot.com/files/2017/05/bryan_trans-64x64.png" alt="" class="media-object">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Jhon Carter
+                                                <small>Posted on November 19, 2017 15:36</small>
+                                            </h4>
+                                            <p>Excellent feature! I love it. One day I'm definitely going to put this Bootstrap
+                                                component into use and I'll let you know once I do.</p>
+                                            <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#post2-1">
+                                                Read answers
+                                                <span class="badge">3</span>
+                                            </button>
+
+                                            <div id="post2-1" class="post collapse">
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <a href="">
+                                                            <img src="https://kahoot.com/files/2017/06/AlexAvatar-white-64x64.png" alt="" class="media-object">
+                                                        </a>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Max Martin
+                                                            <small>Posted on November 19, 2017 17:07</small>
+                                                        </h4>
+                                                        <p>Thanks! I think it's really useful! :-)</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <a href="">
+                                                            <img src="https://kahoot.com/files/2017/05/bryan_trans-64x64.png" alt="" class="media-object">
+                                                        </a>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Jhon Carter
+                                                            <small>Posted on November 19, 2017 17:13</small>
+                                                        </h4>
+                                                        <p>I'm gonna build my own social network, it'll be a place for everybody
+                                                            interested in different place-img pages.</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <a href="">
+                                                            <img src="https://kahoot.com/files/2017/06/AlexAvatar-white-64x64.png" alt="" class="media-object">
+                                                        </a>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Max Martin
+                                                            <small>Posted on November 20, 2017 08:49</small>
+                                                        </h4>
+                                                        <p>Fantastic! I bet everyone will sign up for that.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Comment 2-2 -->
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="">
+                                                <img src="https://kahoot.com/files/2017/05/carla_trans-64x64.png" alt="" class="media-object">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Monica Zetterlund
+                                                <small>Posted on November 19, 2017 15:36</small>
+                                            </h4>
+                                            <p>Excellent feature! I love it. One day I'm definitely going to put this Bootstrap
+                                                component into use and I'll let you know once I do.</p>
+                                            <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#post2-2">
+                                                Read answers
+                                                <span class="badge">3</span>
+                                            </button>
+
+                                            <div id="post2-2" class="post collapse">
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <a href="">
+                                                            <img src="https://kahoot.com/files/2017/05/daria_trans-64x64.png" alt="" class="media-object">
+                                                        </a>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Marie Curie
+                                                            <small>Posted on November 19, 2017 17:07</small>
+                                                        </h4>
+                                                        <p>Thanks! I think it's really useful! :-)</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <a href="">
+                                                            <img src="https://kahoot.com/files/2017/05/carla_trans-64x64.png" alt="" class="media-object">
+                                                        </a>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Monica Zetterlund
+                                                            <small>Posted on November 19, 2017 17:13</small>
+                                                        </h4>
+                                                        <p>I'm gonna build my own social network, it'll be a place for everybody
+                                                            interested in different place-img pages.</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <a href="">
+                                                            <img src="https://kahoot.com/files/2017/05/daria_trans-64x64.png" alt="" class="media-object">
+                                                        </a>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Marie Curie
+                                                            <small>Posted on November 20, 2017 08:49</small>
+                                                        </h4>
+                                                        <p>Fantastic! I bet everyone will sign up for that.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="panel-footer">
+                        <div class="social-links">
+                            Share your experience on
+                            <a href="#">
+                                <i class="fa fa-facebook-official"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog post 3 -->
+            <div class="col-xs-12">
+                <div class="panel panel-primary blogpost">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <h3>Meet Karl, a Xylophone Composer
+                                <small>Posted on 2017-10-22</small>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore similique tenetur minima quasi
+                            totam exercitationem laborum numquam voluptate vero temporibus, molestiae odio facilis. Ipsum,
+                            reiciendis aliquam. Deleniti architecto natus officia.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique cum autem totam. Quam aspernatur
+                            mollitia minima similique eos repellat amet sapiente fugit eveniet deleniti voluptatum exercitationem
+                            id, culpa nemo cupiditate in sed vero enim iste labore. Ad aut molestiae fuga!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, provident tempore totam obcaecati
+                            dolore quo. Veniam blanditiis debitis suscipit tempora.</p>
+                        <!-- Write a comment -->
+                        <div class="well write-comment panel panel-default">
+                            <!-- Heading of Write a Comment -->
+                            <div class="panel-heading" data-toggle="collapse" data-target="#make-comment-3">
+                                <div class="panel-title">
+                                    <h4>Make a Comment</h4>
+                                </div>
+                            </div>
+                            <!-- Write a Comment form -->
+                            <div class="panel-collapse collapse" id="make-comment-3">
+                                <div class="panel-body">
+                                    <form>
+                                        <div class="row">
+                                            <div class="form-group col-xs-12 col-sm-6 col-lg-3">
+                                                <label for="name">Name</label>
+                                                <input type="name" class="form-control" id="name" placeholder="Enter Name">
+                                            </div>
+                                            <div class="form-group col-xs-12 col-sm-6 col-lg-4">
+                                                <label for="email">Email Address</label>
+                                                <input type="email" class="form-control" id="email" placeholder="Enter Email address">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group col-xs-12 col-lg-7">
+                                                <label for="description">Comment</label>
+                                                <textarea class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <button type="button" class="btn btn-success submit" data-toggle="modal" data-target="#modal-confirm">
+                                                Post Comment
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Read all comments -->
+                        <div class="well read-comments panel panel-default">
+                            <!-- Heading of Read Comments -->
+                            <div class="panel-heading" data-toggle="collapse" data-target="#read-comments-3">
+                                <div class="panel-title">
+                                    <h4>Read Comments</h4>
+                                </div>
+                            </div>
+
+                            <!-- All comments -->
+                            <div class="panel-collapse collapse" id="read-comments-3">
+                                <div class="panel-body">
+                                    <!-- Comment 3-1 -->
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="">
+                                                <img src="https://kahoot.com/files/2017/05/bryan_trans-64x64.png" alt="" class="media-object">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Jhon Carter
+                                                <small>Posted on November 19, 2017 15:36</small>
+                                            </h4>
+                                            <p>Excellent feature! I love it. One day I'm definitely going to put this Bootstrap
+                                                component into use and I'll let you know once I do.</p>
+                                            <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#post3-1">
+                                                Read answers
+                                                <span class="badge">3</span>
+                                            </button>
+
+                                            <div id="post3-1" class="post collapse">
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <a href="">
+                                                            <img src="https://kahoot.com/files/2017/06/AlexAvatar-white-64x64.png" alt="" class="media-object">
+                                                        </a>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Max Martin
+                                                            <small>Posted on November 19, 2017 17:07</small>
+                                                        </h4>
+                                                        <p>Thanks! I think it's really useful! :-)</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <a href="">
+                                                            <img src="https://kahoot.com/files/2017/05/bryan_trans-64x64.png" alt="" class="media-object">
+                                                        </a>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Jhon Carter
+                                                            <small>Posted on November 19, 2017 17:13</small>
+                                                        </h4>
+                                                        <p>I'm gonna build my own social network, it'll be a place for everybody
+                                                            interested in different place-img pages.</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <a href="">
+                                                            <img src="https://kahoot.com/files/2017/06/AlexAvatar-white-64x64.png" alt="" class="media-object">
+                                                        </a>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Max Martin
+                                                            <small>Posted on November 20, 2017 08:49</small>
+                                                        </h4>
+                                                        <p>Fantastic! I bet everyone will sign up for that.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Comment 2 -->
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <a href="">
+                                                <img src="https://kahoot.com/files/2017/05/carla_trans-64x64.png" alt="" class="media-object">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="media-heading">Monica Zetterlund
+                                                <small>Posted on November 19, 2017 15:36</small>
+                                            </h4>
+                                            <p>Excellent feature! I love it. One day I'm definitely going to put this Bootstrap
+                                                component into use and I'll let you know once I do.</p>
+                                            <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#post3-2">
+                                                Read answers
+                                                <span class="badge">3</span>
+                                            </button>
+
+                                            <div id="post3-2" class="post collapse">
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <a href="">
+                                                            <img src="https://kahoot.com/files/2017/05/daria_trans-64x64.png" alt="" class="media-object">
+                                                        </a>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Marie Curie
+                                                            <small>Posted on November 19, 2017 17:07</small>
+                                                        </h4>
+                                                        <p>Thanks! I think it's really useful! :-)</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <a href="">
+                                                            <img src="https://kahoot.com/files/2017/05/carla_trans-64x64.png" alt="" class="media-object">
+                                                        </a>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Monica Zetterlund
+                                                            <small>Posted on November 19, 2017 17:13</small>
+                                                        </h4>
+                                                        <p>I'm gonna build my own social network, it'll be a place for everybody
+                                                            interested in different place-img pages.</p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <a href="">
+                                                            <img src="https://kahoot.com/files/2017/05/daria_trans-64x64.png" alt="" class="media-object">
+                                                        </a>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Marie Curie
+                                                            <small>Posted on November 20, 2017 08:49</small>
+                                                        </h4>
+                                                        <p>Fantastic! I bet everyone will sign up for that.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="panel-footer">
+                        <div class="social-links">
+                            Share your experience on
+                            <a href="#">
+                                <i class="fa fa-facebook-official"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- This is the site footer - Copy this part to the other sites -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="main-footer-content col-md-4 col-md-offset-8">
+                    <h3 class="text-center">
+                        Keep up with us!
+                    </h3>
+                    <div class="social-links">
+                        <a href="#">
+                            <i class="fa fa-facebook-official"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End of the footer -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

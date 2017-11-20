@@ -1,28 +1,201 @@
+/* CSS Document */
+/* Import statements */
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
 
-.glyphicon {
-    font-size: 40px;
-    padding-top: 20px;
-}
-
-.glyphicon-menu-hamburger {
-    font-size: 20px;
-    padding: 0;
-    font-weight: normal;
-}
-.glyphicon-home {
-    font-size: 0px;
-    padding: 0;
-    font-weight: normal;
-}
-
+/* Styling */
 body {
-    background-color: rgb(255, 251, 240);
+    background: url(../images/bg_main_v2.png) no-repeat center center fixed;
+    background-size: cover;
+    overflow-x: hidden;
 }
-.brandlink {
-    text-decoration: none;
-    color: gray;
+.navbar-default .navbar-nav > li > a:hover {
+    color: hsla(157, 38%, 48%, 1);
 }
-.brandlink:hover {
-    color: gray;
+.navbar-brand {
+    font-family: "Pacifico", cursive;
+    font-size: 27px;
+}
+/*HeroImg Styling*/
+.mobile-header {
+    padding: 30px;
+}
+.start-panels {
+    margin-top: 110px;
+}
+@media only screen and (min-width: 320px) and (max-width: 991px) {
+    .heroimg {
+        background-image: url(../images/heroimg-mobile.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        margin-top: -20px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .heroimg {
+        display: grid;
+        grid-template-columns: 3fr auto 3fr;
+        grid-template-rows: 1fr 1fr auto;
+        background-image: url(../images/heroimg2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 700px;
+        margin-top: -20px;
+    }
+}
+.anchor-start {
+    grid-column: 2;
+    grid-row: 3;
+}
+.anchor-start .glyphicon-arrow-down {
+    color: lightgray;
+    font-size: 50px;
+    padding: 20px;
+    margin-bottom: 1em;
+}
+.anchor-start a:hover .glyphicon-arrow-down {
+    color: white;
+}
+
+/* Make outline disappear on first page after scrolling */
+#start-title {
+    outline: none;
+}
+
+/* Large Panels Styling */
+.large-panels {
+    margin-top: 20px;
+}
+
+/* FOOTER CSS */
+.site-footer {
+    background-color: #3e5a7c;
+}
+.footer-text {
+    font-family: "Pacifico", cursive;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-around;
+}
+.social-links i {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.social-links a {
+    color: white;
+}
+.social-links a:hover {
+    text-shadow: 1px 1px 10px white;
+}
+.footer-rights {
+    margin-top: 5%;
+    color: darkgray;
+}
+/* Gallery Page Styling */
+.gallery-row-two,
+.gallery-row-three {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.test-gallery > img {
+    opacity: 0.4;
+}
+.test-gallery:hover > img {
+    opacity: 1;
+    box-shadow: 1px 1px 10px 2px white;
+}
+.gallery-header {
+    text-shadow: 1px 1px 4px cyan;
+}
+.collapse-photo-header {
+    font-family: "Pacifico", cursive;
+    color: white;
+    text-shadow: 1px 1px 4px cyan;
     text-decoration: none;
+}
+
+/* Styling for the about page*/
+.center-pills {
+    display: flex;
+    justify-content: center;
+}
+.center-pills h2 {
+    font-family: "Pacifico", cursive;
+    font-size: 45px;
+}
+.center-pills > li > a:hover {
+    background-color: hsla(0, 0%, 0%, 0);
+}
+.center-pills > li > a:hover h2 {
+    text-shadow: 1px 1px 30px white;
+}
+
+.meet-our-teachers {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+/* Makes panels on "all tutoring" page have space between image and text */
+.services img {
+    padding-bottom: 1em;
+}
+
+/* Makes panels on "all tutoring" page the same height */
+@media screen and (min-width: 768px) {
+    .equal {
+        display: flex;
+        margin: 1em;
+    }
+    .equal .panel {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .equal .panel .panel-body {
+        flex: 1;
+    }
+}
+
+/* Add good looking padding on services pages */
+.tab-pane {
+    padding-top: 1em;
+    margin-bottom: 1em;
+    outline: none;
+}
+
+.price {
+    color: grey;
+    padding-left: 1em;
+}
+
+#info h4, #info h4 + p {
+    padding-left: 1em;
+}
+
+/* Social links in blog footer */
+.blogpost .social-links {
+    justify-content: center;
+}
+.blogpost .social-links i {
+    padding-bottom: 0;
+    padding-left: 1em;
+}
+
+/* Blog comments */
+.post {
+    margin-top: 1em;
+}
+
+/* Comment panels spacing */
+.write-comment, .read-comments {
+    padding-top: 0;
+    padding-bottom: 1em;
+    margin: 0;
+}
+
+/* Comment panels heading */
+.write-comment .panel-heading, .read-comments .panel-heading {
+    cursor: pointer;
 }
